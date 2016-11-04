@@ -1,0 +1,57 @@
+body{
+	background-image: url("deco/fondo-bola.png");
+	background-size: 50px 50px;
+}
+#juego{
+	z-index:0;
+	width:600px;
+	height:600px;
+	border: solid 5px #73afe4;
+	background-color: #73afe4;
+	margin-top:30px;
+	margin-left: 350px;
+	position:relative;
+	
+}
+.pieza{
+	width:200px;
+	height:200px;
+	position:absolute;
+	border: 1px solid #73afe4 ;
+	background-size: 100% 100%;
+	transition:all .1s ease-in-out;
+}
+img#logo{
+	position:relative;
+	z-index:1;
+	width:400px;
+	height:200px;
+	transform:rotate(-10deg) translateX(330px) translateY(-620px);
+}
+img#ash{
+	position:absolute;
+	z-index:1;
+	width:400px;
+	height:640px;
+	transform: translateX(450px) translateY(-630px);
+}
+img#squirtle{
+	position:absolute;
+	z-index:1;
+	width:300px;
+	height:250px;
+	transform:translateX(50px) translateY(-450px);
+}
+.text-squirt{
+	position:absolute;
+	z-index:2 ;
+	font-family: Arial black, sans-serif;
+	font-size:25px;
+	font-style:bold;
+}
+.a1{
+	transform:translateX(80px) translateY(-390px);
+}
+.a2{
+	transform:translateX(160px) translateY(-330px);
+}
